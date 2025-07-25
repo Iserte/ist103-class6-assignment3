@@ -2,6 +2,11 @@ body {
   font-family: monospace;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
   background-color: #41a9b7;
   color: white;
@@ -13,23 +18,22 @@ header h2 {
   padding: 1rem;
 }
 
-nav {
+header nav {
   background-color: #5068be;
 }
 
-ul {
+header ul {
   padding: 0;
   display: flex;
 }
 
-li {
+header li {
   list-style: none;
-  border: 1px solid black;
+  border-right: 1px dotted black;
   padding: 1rem;
 }
 
-li > a {
-  text-decoration: none;
+header a {
   color: white;
 }
 
@@ -37,4 +41,33 @@ footer {
   background-color: #d7585c;
   color: white;
   padding: 1.5rem;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+main article {
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: #e6c8a5;
+  margin: 1rem 0;
+}
+
+main article div {
+  display: flex;
+}
+
+main article aside {
+  background-color: white;
+  border: 1px dotted black;
+  height: fit-content;
+}
+
+main article aside ul {
+  padding: 0 1rem 0.5rem 2rem;
+}
+
+main article img {
+  padding: 1rem 1rem 0 1rem;
 }
