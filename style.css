@@ -28,3 +28,9 @@ li > a {
   text-decoration: none;
   color: white;
 }
+
+footer {
+  background-color: #d7585c;
+  color: white;
+  padding: 1.5rem;
+}
