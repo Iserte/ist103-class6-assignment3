@@ -1,0 +1,30 @@
+header {
+  background-color: #41a9b7;
+  color: white;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+nav {
+  background-color: #5068be;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
